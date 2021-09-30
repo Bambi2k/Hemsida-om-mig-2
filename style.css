@@ -2,6 +2,7 @@ body {
   background-image: url("white.jpg");
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  height: 850px;
 }
 
 a {
