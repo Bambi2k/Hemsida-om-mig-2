@@ -1,0 +1,119 @@
+body {
+  background-image: url("white.jpg");
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: inherit;
+}
+.logoclass {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+}
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  top: 0px;
+  border-bottom: 2px solid coral;
+  height: 60px;
+  z-index: 10;
+}
+
+.buttons {
+  background-color: rgb(255, 255, 255);
+  color: coral;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: center;
+  width: 150px;
+  border-bottom: solid 2px;
+  border-radius: 5px;
+  border-color: transparent;
+  transition-duration: 750ms;
+  margin-left: 10px;
+  height: 10px;
+}
+
+.buttons:hover {
+  border-color: coral;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  top: 15px;
+  left: 875px;
+  position: absolute;
+}
+
+.header {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 85px;
+  font-weight: normal;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.imgclass2 {
+  width: 640px;
+  height: 360px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  display: block;
+  border-radius: 5px;
+}
+
+.imgclass3 {
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  display: block;
+  border-radius: 5px;
+}
+
+.text {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.dreamhackpic {
+  width: 600px;
+  height: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.sf {
+  width: 600px;
+  height: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  display: block;
+}
+
+.gradientbox {
+  background: rgb(255, 127, 80);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 127, 80, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: block;
+  height: 100px;
+  text-align: center;
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
