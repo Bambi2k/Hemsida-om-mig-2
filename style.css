@@ -91,6 +91,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  border-radius: 5px;
 }
 
 .sf {
@@ -100,6 +101,7 @@ a {
   margin-left: auto;
   width: 50%;
   display: block;
+  border-radius: 5px;
 }
 
 .gradientbox {
